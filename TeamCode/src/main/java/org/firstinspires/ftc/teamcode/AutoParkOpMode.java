@@ -22,6 +22,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.hardware.bosch.JustLoggingAccelerationIntegrator;
 import android.graphics.Color;
 
+@Disabled
 @Autonomous
 
 public class AutoParkOpMode extends LinearOpMode {
