@@ -10,7 +10,14 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
+/**
+ * Documentation
+ * Config for Blah
+ * Servo Port0 = "ServoOne"
+ */
+
 @TeleOp (group="Primary")
+
 
 public class ArmServoTestOpMode extends LinearOpMode {
     private Blinker control_Hub;
@@ -47,6 +54,7 @@ public class ArmServoTestOpMode extends LinearOpMode {
             //bottomArmServo.setPosition(0);
             //topArmServo.setPosition(0.6);
             
+
             //open:
             //bottomArmServo.setPosition(0.15);
             //topArmServo.setPosition(0.45);

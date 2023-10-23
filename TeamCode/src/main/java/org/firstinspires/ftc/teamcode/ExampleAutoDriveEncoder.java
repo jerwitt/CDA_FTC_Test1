@@ -17,7 +17,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-@Autonomous
+@Autonomous (group="z2022")
 
 public class ExampleAutoDriveEncoder extends LinearOpMode {
     private Blinker control_Hub;

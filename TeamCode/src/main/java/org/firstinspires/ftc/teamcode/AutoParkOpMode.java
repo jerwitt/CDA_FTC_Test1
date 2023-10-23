@@ -23,7 +23,7 @@ import com.qualcomm.hardware.bosch.JustLoggingAccelerationIntegrator;
 import android.graphics.Color;
 
 @Disabled
-@Autonomous
+@Autonomous (group="z2022")
 
 public class AutoParkOpMode extends LinearOpMode {
     private ColorSensor colorSensor;
